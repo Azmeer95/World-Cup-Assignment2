@@ -17,9 +17,14 @@ body {
   width: 187px;
   height: 56px;
   padding: 16px 25px;
-  color: #fff;
+
   font-size: 20px;
   font-weight: 400;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Header Section Start */
@@ -69,3 +74,15 @@ body {
   width: 100%;
 }
 /* Header Section End */
+
+/* Main Section Start */
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 312px);
+}
+
+nav {
+  background-color: #161616;
+}
+
+/* Main Section End */
