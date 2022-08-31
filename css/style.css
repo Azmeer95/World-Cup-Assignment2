@@ -193,3 +193,43 @@ iconify-icon {
 /* Blog Section End */
 
 /* Main Section End */
+
+/* Footer Section Start */
+footer {
+  background-color: #161616;
+  text-align: center;
+  padding: 130px;
+}
+
+.footer-text {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+hr {
+  width: 1320px;
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 50px auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  padding: 0 30px;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #b9b9b9;
+}
+
+/* Footer Section End */
