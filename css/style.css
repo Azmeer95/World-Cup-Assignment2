@@ -81,7 +81,6 @@ body {
 section {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-bottom: 130px;
 }
 
@@ -93,6 +92,7 @@ nav {
   display: grid;
   justify-content: center;
   align-items: center;
+  margin-right: 24px;
 }
 
 .nav-container {
@@ -128,7 +128,6 @@ nav {
 /* Side Nav End */
 
 /* Blog Section Start */
-
 article {
   display: grid;
   grid-template-columns: repeat(3, 312px);
