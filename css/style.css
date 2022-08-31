@@ -27,7 +27,7 @@ body {
   color: #fff;
 }
 
-/* Header Section Start */
+/* Banner Section Start */
 .container {
   width: 1321px;
   height: 646px;
@@ -73,16 +73,56 @@ body {
 .container-img img {
   width: 100%;
 }
-/* Header Section End */
+/* Banner Section End */
 
 /* Main Section Start */
-main {
-  display: grid;
-  grid-template-columns: repeat(4, 312px);
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
 }
 
 nav {
-  background-color: #161616;
+  background: #161616;
+  border-radius: 10px;
+  width: 312px;
+  height: 312px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* row-gap: 30px; */
+}
+
+.nav-container {
+  display: grid;
+  row-gap: 30px;
+}
+
+.nav-item {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 252px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.selected {
+  background: #dd0000;
+}
+
+.selected a {
+  color: #fff;
 }
 
 /* Main Section End */
