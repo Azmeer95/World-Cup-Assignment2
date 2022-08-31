@@ -76,6 +76,8 @@ body {
 /* Banner Section End */
 
 /* Main Section Start */
+
+/* Side Nav Start */
 section {
   display: flex;
   justify-content: center;
@@ -91,7 +93,6 @@ nav {
   display: grid;
   justify-content: center;
   align-items: center;
-  /* row-gap: 30px; */
 }
 
 .nav-container {
@@ -124,5 +125,64 @@ nav {
 .selected a {
   color: #fff;
 }
+/* Side Nav End */
+
+/* Blog Section Start */
+.article-container {
+  width: 312px;
+  height: 362px;
+  border: #e8e8e8 1px solid;
+  border-radius: 10px;
+}
+
+.inner-contents {
+  padding: 20px;
+}
+
+.inner-button {
+  width: 100px;
+  height: 32px;
+  border: #161616 1px solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.article-container h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #161616;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  width: 143px;
+  height: 26px;
+}
+
+.time-icon,
+.chat-icon {
+  width: 60px;
+  height: 26px;
+  display: flex;
+  color: rgba(22, 22, 22, 0.7);
+}
+
+.time-icon {
+  margin-right: 30px;
+}
+
+iconify-icon {
+  padding-right: 10px;
+}
+
+/* Blog Section End */
 
 /* Main Section End */
