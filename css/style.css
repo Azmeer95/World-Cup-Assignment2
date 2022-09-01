@@ -193,6 +193,10 @@ iconify-icon {
 
 /* Main Section End */
 
+.bottom-btn {
+  display: none;
+}
+
 /* Footer Section Start */
 footer {
   background-color: #161616;
@@ -291,6 +295,130 @@ li a {
     margin: 60px 17px 0 2px;
   }
   /* Banner Section End */
+
+  /* Main Section Start */
+
+  section {
+    margin-bottom: 50px;
+  }
+
+  /* Side Nav Start */
+  nav {
+    display: none;
+  }
+
+  /* Blog Section Start */
+  article {
+    display: grid;
+    grid-template-columns: repeat(2, 357px);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .article-container {
+    width: 357px;
+    height: 414.21px;
+  }
+
+  .article-container img {
+    width: 100%;
+  }
+
+  .inner-contents {
+    padding: 22.88px;
+  }
+
+  .inner-button {
+    width: 114.42px;
+    height: 36.62px;
+    font-size: 18.3077px;
+    line-height: 27px;
+    margin-bottom: 17.16px;
+  }
+
+  .article-container h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 24.67px;
+  }
+
+  .icons {
+    display: flex;
+    width: 163.88px;
+    height: 30px;
+  }
+
+  .time-icon,
+  .chat-icon {
+    width: 68.9px;
+    height: 30px;
+    display: flex;
+    color: rgba(22, 22, 22, 0.7);
+  }
+
+  .time-icon {
+    margin-right: 34.08px;
+  }
+
+  iconify-icon {
+    padding-right: 11.44px;
+  }
+
+  .container-hidden {
+    display: none;
+  }
+
+  /* Blog Section End */
+
+  .bottom-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 69.79px;
+  }
+
+  .bottom-btn button {
+    width: 131px;
+    height: 47px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  /* Footer Section Start */
+  footer {
+    padding: 70px;
+  }
+
+  .footer-text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+
+  hr {
+    width: 734px;
+    margin: 30px auto;
+  }
+
+  .footer-link-container {
+    width: 635px;
+    height: 100px;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  li a {
+    line-height: 50px;
+  }
+
+  /* Footer Section End */
 }
 
 /* 
