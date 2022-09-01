@@ -7,6 +7,39 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Banner Section Start */
+.container {
+  width: 1321px;
+  height: 646px;
+  background-color: #161616;
+  border-radius: 30px;
+  margin: 30px auto 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text {
+  width: 531px;
+  height: 424px;
+  margin: 111px 24px 111px 106px;
+}
+
+.container-text h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.container-text p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 30px 0;
+}
+
 .button {
   display: flex;
   justify-content: center;
@@ -24,39 +57,6 @@ body {
 .button a {
   text-decoration: none;
   color: #fff;
-}
-
-/* Banner Section Start */
-.container {
-  width: 1321px;
-  height: 646px;
-  background-color: #161616;
-  border-radius: 30px;
-  margin: 30px auto 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-text {
-  width: 531px;
-  height: 424px;
-  margin: 111px 24px 111px 106;
-}
-
-.container-text h1 {
-  color: #fff;
-  font-weight: 700;
-  font-size: 70px;
-  line-height: 80px;
-}
-
-.container-text p {
-  color: #fff;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  margin: 30px 0;
 }
 
 .container-text img {
@@ -232,3 +232,81 @@ li a {
 }
 
 /* Footer Section End */
+
+/* Responsive Design */
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Banner Section Start */
+  .container {
+    width: 734px;
+    height: 398px;
+    margin: 50px auto 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-text {
+    width: 316px;
+    height: 276px;
+    margin: 61px 2px 61px 76px;
+  }
+
+  .container-text h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .container-text p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0;
+  }
+
+  span {
+    display: none;
+  }
+
+  .button {
+    width: 161px;
+    height: 48px;
+    padding: 12px;
+
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .container-text img {
+    margin-left: 2px;
+  }
+
+  .container-img {
+    width: 323px;
+    height: 340px;
+    margin: 60px 17px 0 2px;
+  }
+  /* Banner Section End */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+}
