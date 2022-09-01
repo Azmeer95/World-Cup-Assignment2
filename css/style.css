@@ -414,6 +414,14 @@ li a {
     flex-wrap: wrap;
   }
 
+  .footer-links li {
+    flex: 1 0 21%;
+  }
+
+  li {
+    padding: 0px 20px;
+  }
+
   li a {
     line-height: 50px;
   }
